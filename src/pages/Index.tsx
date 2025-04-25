@@ -20,7 +20,7 @@ const Index = () => {
               <Code className="w-16 h-16 text-white" />
             </div>
             <h2 className="text-4xl font-bold text-white mb-4">Engineer</h2>
-            <p className="text-white/80">Explore AI and Tech Careers</p>
+            <p className="text-white/80">learn prompting and gpt</p>
           </div>
         </Link>
 
@@ -34,7 +34,7 @@ const Index = () => {
               <Users className="w-16 h-16 text-white" />
             </div>
             <h2 className="text-4xl font-bold text-white mb-4">Government</h2>
-            <p className="text-white/80">Discover Career Opportunities</p>
+            <p className="text-white/80">get visual help</p>
           </div>
         </Link>
       </div>
