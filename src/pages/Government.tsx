@@ -12,12 +12,15 @@ const Government = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50 p-4 md:p-8">
+      <div className="text-center py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold mb-4">
+        DESIGNED BY TEAM VIRAT
+      </div>
       <Link to="/" className="text-blue-600 hover:text-blue-800 mb-8 inline-block">
         ← Back to Home
       </Link>
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-12 text-blue-800">Government Sector</h1>
+        <h1 className="text-4xl font-bold text-center mb-8 md:mb-12 text-blue-800">Government Sector</h1>
         <div className="flex justify-center">
           <a
             href={bubble.link}
